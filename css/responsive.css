@@ -1,0 +1,235 @@
+@media (max-width:1300px) {
+    .playing .sub-title {
+        position: absolute;
+        top: 20%;
+        left: 9%;
+    }
+}
+.road-map-responsive{
+    display: none;
+    visibility: hidden;
+}
+/* ------------------------- Media 1200 ------------------------------ */
+
+@media (max-width:1200px) {
+    .playing .sub-title {
+        position: absolute;
+        top: 20%;
+        left: 7%;
+    }
+    .road-map-responsive{
+        display: block;
+        visibility: visible;
+    }
+    .road-map .map-content {
+        display: none;
+        visibility: hidden;
+    }
+    .testominal .bg-purple {
+        width: 30%;
+    }
+    .faq .sub-title h1 {
+        width: 50%;
+    }
+}
+
+/* ------------------------- Media 1176 ------------------------------ */
+
+@media (max-width:1176px) {
+    .playing .sub-title {
+        left: 12%;
+        width: 900px;
+    }
+    .road-map-responsive .bg-light.left-circle::before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: -5%;
+    }
+    .road-map-responsive .right-circle::before {
+        left: -6%;
+    }
+}
+
+/* ------------------------- Media 1050 ------------------------------ */
+
+@media (max-width:1050px) {
+    .playing .sub-title { 
+        width: 800px;
+        left:  ;
+    }
+    .input-group {
+        width: 90%;
+    }
+}
+
+/* ---------------- Media 991 -------------------- */
+
+@media (max-width:991px) {
+    .Header {
+         padding: 0px;
+    }
+    span.navbar-toggler-icon {
+        background-color: rgb(255, 255, 255);
+    }
+    .contact-btn {
+        position: absolute;
+        top: 15px;
+        right: 10px; 
+    }
+    .hero-det.mt-5 {
+        margin: 0px !important;
+    }
+    p.mx-auto.text-muted.my-4.mb-5 {
+        width: 75%;
+    }
+    .service .card {
+        margin-top: 10px;
+    }
+    .team .card.pb-4 img {
+        width: 50% !important;
+    }
+    .process .card span {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        margin: 0;
+    }
+    .road-map-responsive .bg-light.left-circle::before { 
+        right: -7%;
+    }
+    .road-map-responsive .right-circle::before {
+        left: -7%;
+    }
+    .testominal .bg-purple {
+        margin: 0px;
+    }
+    .blog .card img {
+        width: 50%;
+    }
+    .blog .card {
+        margin-top: 15px;
+    }
+    .accordion-item {
+        margin: 10px 0px;
+    }
+    .footer-subs {
+        margin-top: 15px;
+    }
+}
+
+/* ------------------------- Media 900 ------------------------------ */
+
+@media (max-width:900px) {
+    .playing .sub-title {
+        right: auto;
+        width: 600px;
+    }
+}
+
+/* ------------------------ Media 768 ----------------------------- */
+
+@media (max-width:768px) {
+    .similar-text h6, h2 {
+        font-weight: 400;
+        width: 100%; 
+    }
+    .similar-text p {
+        font-weight: 400;
+        width: 100%;
+        font-size: 15px;
+    }
+    .service {
+        padding: 30px;
+    }
+    .process {
+        padding: 30px;
+    }
+    .process .card {
+        text-align: center;
+    }
+    .process .card span {
+        margin: auto;
+    }
+    .playing .sub-title {
+        width: 550px;
+    }
+    .road-map-responsive .bg-light.left-circle::before {
+        right: -10%;
+    }
+    .road-map-responsive .right-circle::before {
+        left: -10%;
+    }
+    .road-map-responsive::after {
+        content: " ";
+        height: calc(100% - 200px);
+        width: 2px; 
+    }
+    .team {
+        padding: 30px;
+    }
+    .road-map {
+        padding: 40px 0px 30px;
+    }
+    .footer-menu {
+        margin-bottom: 30px;
+    }
+}
+/* -------------------------------- */
+@media (max-width:700px) {
+    .playing .sub-title {
+        width: 500px;
+    }
+}
+/* ---------------Media 576 ---------- */
+
+@media (max-width:576) {
+    .hero-banner {
+        height: 100%;
+    }
+    .service .card {
+        margin-right: 17px;
+    }
+    .playing .sub-title {
+        width: 450px;
+    }
+    .sub-title h1 {
+        font-size: 22px;
+    }
+    p.mx-auto.text-muted.my-4.mb-5 {
+        font-size: 15px;
+    }
+    .playing .fa-circle-play {
+        font-size: 30px;
+    }
+    .sub-title.text-center {
+        width: 423px;
+    }
+    .road-map-responsive::after {
+        visibility: hidden;
+    }
+    .road-map-responsive .bg-light.left-circle::before { 
+        visibility: hidden;
+    }
+    .blog {
+        padding: 30px 0px;
+    }
+    .faq {
+        padding: 80px 0px;
+    }
+    .footer {
+        padding: 30px 0px ;
+    }
+}
+
+/* ---------------Media 425 ---------- */
+
+@media (max-width:425px) {
+    .hero-banner { 
+        height: 100%; 
+    }
+    .playing .sub-title {
+        width: 300px;
+    }
+}
